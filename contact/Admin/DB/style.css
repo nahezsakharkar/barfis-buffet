@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:80%;
+	width: 100%;
+}
+h1 {
+	font-family: 'Century Gothic', serif;
+	padding-left: 3%;
+	font-size: 200%;
+}
+h2 {
+	font-family: 'Century Gothic', serif;
+	padding-left: 3%;
+}
+.type {
+	width: 100%;
+    height: 40px;
+    font-size: 110%;
+	border: 0;
+	outline: none;
+    padding: 1px;
+    color: gray;
+	background: #eee;
+	text-indent: 1%;
+}
+.headd {
+	text-align: center;
+	width: 100%;
+    height: 40px;
+    font-size: 110%;
+	border: 0;
+	outline: none;
+    padding: 1px;
+    color: black;
+	background: #eee;
+	text-indent: 1%;
+}

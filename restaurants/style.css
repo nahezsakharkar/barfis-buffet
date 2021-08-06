@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+.clearfix {
+	clear: both;
+	height: 0.1%;
+	overflow: auto;
+}
+.sidebar {
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+.right-col {
+	width: 63%;
+	float: right;
+	margin: 0 3% 1% 1%;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 160%;
+	font-weight: 700;
+	color: #2C2C2C;
+	text-align: center;
+}
+h3 {
+	font-family: 'Raleway', serif;
+	font-weight: 300;
+	text-align: justify;
+	color: #2C2C2C;
+	font-size: 100%;
+}
+p  {
+	font-family: 'Raleway', serif;
+	line-height: 130%;
+	font-weight: 300;
+	color: #2C2C2C;
+	text-align: justify;
+	font-size: 140%;
+}
+img {
+    text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}

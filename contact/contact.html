@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="blur">
+	<center>
+	<h1 style="font-family: Century Gothic;">Contact Barfi</h1>
+	<form action="Mail.php" method="post">
+		<p><label style="font-family: Century Gothic;"> Your Name (required)<br><br>
+		<input id = "cName" class="type" type="text" name="name" size="40" placeholder="Name" required/></label></p>
+		<p><label style="font-family: Century Gothic;"> Your Email (required)<br><br>
+		<input id="cEmail" class="type" type="email" name="email" size="40" placeholder="Email" required/></label></p>
+		<p><label style="font-family: Century Gothic;"> Subject<br><br>
+    	<input id="cSub" class="type" type="text" name="sub" size="40" placeholder="Subject" aria-invalid="false"/></label></p>
+		<p><label style="font-family: Century Gothic;">Your Message<br><br>
+    	<textarea id="cMsg" class="typetext" name="msg" cols="40" rows="10" placeholder="Message" aria-invalid="false"></textarea></label></p>
+	</form>
+	<p style="font-family: Century Gothic;">Please Press Confirm First To 'CONFIRM' Your Details And Enable 'SEND' Button </p>
+	<p><button class="send" onclick="validate();">CONFIRM</button>
+		<input id="sendBut" class="send" type="submit" value="SEND" onclick="toggle();"></p></center></div>
+	<div id="sent">
+		<center><img src="tick.png" height="170px" width="170px"></center>
+		<h2 style="font-family: Century Gothic;">
+			Your Message Has Been Successfully Sent To Barfi. He Will Contact You As Soon As Possible.</h2>
+		<center><button class="send" onclick="toggle();">OK</button></center>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+	
+</body>
+</html>

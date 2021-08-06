@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:80%;
+	width: 100%;
+}
+h1 {
+	font-family: 'Century Gothic', serif;
+	padding-left: 3%;
+	font-size: 200%;
+}
+h3 {
+	font-family: 'Century Gothic', serif;
+	padding-left: 3%;
+}
+iframe {
+	margin: 0 1% 2% 2%;
+	width: 95%;
+	height: 130%;
+}
+.out {
+	width: 150px;
+	height: 50px;
+	border: none;
+	background-color: #000000;
+	color: white;
+	font-size: 110%;
+	font-family: 'Century Gothic', serif;
+	border-radius: 25px;
+	outline: none;
+}
+.out:hover {
+	background-color: #E94B3CFF;
+	color: white;
+}
